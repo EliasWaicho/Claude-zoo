@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "blender": {
+      "command": "/opt/homebrew/bin/uvx",
+      "args": ["mcp-for-blender"]
+    },
+    "openscad": {
+      "command": "/opt/homebrew/bin/uvx",
+      "args": ["openscad-mcp"],
+      "env": {
+        "OPENSCAD_PATH": "/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD"
+      }
+    },
+    "bambu": {
+      "command": "/opt/homebrew/bin/npx",
+      "args": ["-y", "bambu-printer-mcp"],
+      "env": {
+        "PRINTER_HOST": "192.168.1.XXX",
+        "BAMBU_MODEL": "p1s",
+        "BAMBU_SERIAL": "YOUR_PRINTER_SERIAL",
+        "BAMBU_TOKEN": "YOUR_LAN_ACCESS_CODE"
+      }
+    },
+    "filesystem": {
+      "command": "/opt/homebrew/bin/npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/YOUR_NAME/Claude-zoo"]
+    }
+  }
+}

@@ -13,6 +13,11 @@ tools/build.py   builds a model -> out/<name>.stl / .3mf / .step / .png
 out/           generated files (committed so you can download them)
 ```
 
+## Setup on your Mac
+
+See [setup/MAC.md](setup/MAC.md): slicers, Claude Desktop connectors
+(OpenSCAD, Blender, Bambu printer) and a one-command installer.
+
 ## Usage
 
 ```bash

@@ -17,7 +17,7 @@ This takes about 20 minutes. You'll end up with:
 Open **Terminal** (Cmd+Space, type "Terminal"), then:
 
 ```bash
-git clone https://github.com/EliasWaicho/Claude-zoo.git ~/Claude-zoo
+git clone -b claude/eloquent-newton-ohrrrf https://github.com/EliasWaicho/Claude-zoo.git ~/Claude-zoo
 cd ~/Claude-zoo
 bash setup/install-mac.sh
 ```
